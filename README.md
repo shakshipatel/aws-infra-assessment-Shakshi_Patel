@@ -1,6 +1,6 @@
 # AWS Infra Assessment — Shakshi_Patel
 
-This repository contains Terraform code, setup scripts, screenshots, and documentation for the AWS assessment tasks completed by Shakshi Patel.
+This repository contains screenshots, and documentation for the AWS assessment tasks completed by Shakshi Patel.
 
 Tasks:
 
@@ -16,21 +16,5 @@ Tasks:
 
 - Open each folder `01-vpc-subnets` … `05-architecture-diagram`.
 - Each folder contains:
-  - Terraform code or setup script
   - README with approach and instructions
   - required screenshots for submission
-  - terraform.tfvars.example you must fill if you want to re-run
-
-## How to destroy resources
-
-Run `terraform destroy` in each folder (order recommended):
-
-1. `03-ha-autoscaling-alb`
-2. `02-ec2-static-site`
-3. `01-vpc-subnets`
-4. `04-billing-alerts`
-
-## Notes
-
-- Replace any placeholders like `vpc-...` or `subnet-...` when you re-run Terraform.
-- Make sure to destroy resources after use to avoid charges.
