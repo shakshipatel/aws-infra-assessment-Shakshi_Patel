@@ -1,4 +1,4 @@
-## **Brief Explanation (4–6 lines)**
+## **Brief Explanation**
 
 I created a dedicated VPC with CIDR `10.10.0.0/16` to provide isolated networking for all tasks. I designed two public subnets for internet-facing resources (ALB, NAT Gateway) and two private subnets for backend resources such as EC2 and future databases. An Internet Gateway (IGW) was attached to the VPC to enable outbound/inbound public access. A NAT Gateway was provisioned in a public subnet to allow private instances to securely access the internet without being publicly exposed. Route tables were configured to correctly associate subnets with IGW and NAT for proper traffic flow.
 
@@ -19,4 +19,5 @@ I created a dedicated VPC with CIDR `10.10.0.0/16` to provide isolated networkin
 ## **Required Screenshots**
 
 Placed in folder: `01-vpc-subnets/`
+
 
