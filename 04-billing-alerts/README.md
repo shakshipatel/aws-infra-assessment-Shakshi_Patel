@@ -1,8 +1,15 @@
-## 📘 Why This Matters (Beginner-Friendly Explanation)
+# **Billing & Free Tier Cost Monitoring**
 
-AWS billing can increase unexpectedly when resources are left running—especially NAT Gateways, EC2, ALB, RDS, S3 storage, or data transfer.  
-Beginners often forget to shut down workloads after testing.  
-A CloudWatch Billing Alarm helps detect unwanted spend by sending alerts when monthly charges exceed a threshold (₹100 here).  
-Free Tier Usage Alerts notify when you are about to exceed AWS Free Tier limits.
+## **a) Why cost monitoring is important for beginners**
 
-This setup improves cost visibility and prevents unnecessary charges.
+Beginners often leave resources such as EC2 instances, load balancers, NAT Gateways, or EBS volumes running unintentionally, causing unexpected charges. Billing alarms help prevent surprises by notifying users when spend exceeds a defined threshold.
+
+## **b) What causes sudden increases in AWS bills**
+
+Common causes include NAT Gateway hourly charges, large data transfer, unused EC2 instances, uncleaned EBS volumes, ALBs running continuously, or enabling non–Free Tier services. Free Tier usage alerts help detect when limits are being exceeded.
+
+---
+
+## **Required Screenshots**
+
+Placed in folder: `04-billing-alerts/`
