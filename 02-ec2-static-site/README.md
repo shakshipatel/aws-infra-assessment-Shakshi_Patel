@@ -1,7 +1,9 @@
-## 📘 Overview & Approach
+## **Brief Explanation**
 
-A Free Tier **EC2 instance** running Ubuntu was deployed in the **public subnet** so it receives a public IP and can host a public-facing website.  
-I installed **Nginx** using a simple user-data script and replaced the default index page with a static HTML resume.  
-To ensure security, I allowed only HTTP (port 80) from anywhere and restricted SSH (port 22) to my personal IP. Password authentication was disabled, and only key-based authentication is allowed.
+I launched a Free Tier Ubuntu EC2 instance in the public subnet to host a static resume website. Nginx was installed and configured through the terminal, and the default index page was replaced with my resume HTML file. The instance security group allows HTTP traffic from anywhere and SSH access only from my IP address for security. Hardening steps included OS updates, disabling password SSH logins, and exposing only required ports. The website is accessible publicly over port 80.
 
-This setup follows AWS recommendations for lightweight static content hosting.
+---
+
+## **Required Screenshots**
+
+Placed in folder: `02-ec2-static-site/`
